@@ -2,9 +2,41 @@
 errors listed below, and try again.
 
 
-File "game/settings/ATL.rpy", line 14: expected statement.
-    fade_all = Fade(0.2, 0.0, 0.8, color="#FFFFFF")
-             ^
+File "game/text_ru/intro.rpy", line 35: expected statement.
+    +1 хтонь
+            ^
+
+File "game/text_ru/intro.rpy", line 36: expected statement.
+    +2 хтонь булка, лужа или профессор спросит
+                  ^
+
+File "game/text_ru/intro.rpy", line 37: expected statement.
+    потом гг расскажет про булку (если была), разговор с Катей, спросит про пятно.
+                                 ^
+
+File "game/text_ru/intro.rpy", line 38: expected statement.
+    катя посоветует пойти домой, если расскажет про любое расскажет
+                               ^
+
+File "game/text_ru/intro.rpy", line 40: expected statement.
+    2 пара - спокойно прошла
+                            ^
+
+File "game/text_ru/intro.rpy", line 42: expected statement.
+    3 пара - рнадомно одно из трех событий
+                                          ^
+
+File "game/text_ru/intro.rpy", line 43: expected statement.
+    1. Смотрит в окно и видит в воде Невы что-то шевелится большое. Если покажет соседке то та скажет что это просто отражение тучи в воде и скоро пойдет дождь. Если согласится и поддержать диалог препод выгонит за болтовню. Молча вглядываться в мутную воду - словить хтонь
+                                                                  ^
+
+File "game/text_ru/intro.rpy", line 45: expected statement.
+    2. Препод будет вешать что-то про готический стиль и спросит Алину ответить что олицетворяют собой химеры на готических соборах. Алина вопрос прослушала. Всё обернуться на неё. Если она промолчит соседка ей начнет подсказывать "расскажи про чудовищ" она запаникует, словит хтонь. Если признается что не расслышала вопрос, её выгонят из аудитории
+                                                                                                                                   ^
+
+File "game/text_ru/intro.rpy", line 47: expected statement.
+    3. 
+       ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Dec 11 00:10:15 2022
+Thu Jan  5 14:22:54 2023

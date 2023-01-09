@@ -1,34 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/settings/db.rpy", line 1, in script
-    init python:
-  File "game/settings/db.rpy", line 1, in script
-    init python:
-  File "game/settings/db.rpy", line 21, in <module>
-    dan = Character(_("barmen"), kind=emi, image="", dynamic=True, color="#c8ffc8")
-NameError: name 'emi' is not defined
+  File "game/text_ru/mornings.rpy", line 5, in script
+    scene room_gg day with dissolve
+Exception: Image 'room_gg' does not accept attributes 'day'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/bootstrap.py", line 331, in bootstrap
-    renpy.main.main()
-  File "renpy/main.py", line 560, in main
-    renpy.game.context().run(node)
-  File "game/settings/db.rpy", line 1, in script
-    init python:
-  File "game/settings/db.rpy", line 1, in script
-    init python:
-  File "renpy/ast.py", line 928, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2245, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/settings/db.rpy", line 21, in <module>
-    dan = Character(_("barmen"), kind=emi, image="", dynamic=True, color="#c8ffc8")
-NameError: name 'emi' is not defined
+  File "game/text_ru/mornings.rpy", line 5, in script
+    scene room_gg day with dissolve
+  File "renpy/ast.py", line 1328, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1167, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 742, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/layout.py", line 153, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'room_gg' does not accept attributes 'day'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
 awakening 1.0
-Mon Dec  5 20:37:41 2022
+Sun Jan  8 21:26:50 2023

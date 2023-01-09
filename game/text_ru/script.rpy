@@ -9,17 +9,19 @@
 label start:
 
     call params
-    jump intro1
+    jump morning1
 
     return
 
 
 label params:
     $uh = 0
-    $og = 50
+    $od = 50
     $zn = 0
     # Определение персонажей игры.
     $barmen = _("Бармен")
     $boy = _("Парень")
     $psyh_name = _("Психотерапевт")
+    $babka = _("Женский голос")
+    $time_of_day = "day"
     return
