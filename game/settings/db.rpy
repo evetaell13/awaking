@@ -1,4 +1,22 @@
+init:
+    image side alina_ava  = Image("images/ava/alina_ava.png")
+    # image side babka  = Image("images/ava/alina_ava.png")
+    # image side alina_ava  = Image("images/ava/alina_ava.png")
+    # image side alina_ava  = Image("images/ava/alina_ava.png")
+
+    define nar = Character(None, what_xpos = 50, what_line_leading = 12, what_ypos = 100, what_xsize = 1870)
+    # define nar = Character("", what_line_leading = 12, kind=nvl)
+    define alina = Character("", image="alina_ava", what_line_leading = 12, what_ypos = 10, what_xsize = 1370)
+    define kate = Character("", image="alina_ava", kind=alina)
+    define artem = Character("", image="alina_ava", kind=alina)
+    define ag = Character("", image="alina_ava", kind=alina)
+    define dan = Character("", image="alina_ava", kind=alina)
+    define psyh = Character("", image="alina_ava", kind=alina)
+    define mistik = Character("", image="alina_ava", kind=alina)
+
 init python:
+
+    nar_w = 0
 
     skills_tb = {
 
@@ -8,14 +26,7 @@ init python:
 
     }
 
-    nar = Character(None, what_xpos = 30, what_line_leading = 12, what_ypos = 30, what_xsize = 1890, image="", what_layout='subtitle')
-    alina = Character('Алина', color="#c8ffc8")
-    kate = Character('Катя', color="#c8ffc8")
-    artem = Character(_("boy"), dynamic=True, color="#c8ffc8")
-    ag = Character(_("babka"), dynamic=True, color="#c8ffc8")
-    dan = Character(_("barmen"), image="", dynamic=True, color="#c8ffc8")
-    psyh = Character(_("psyh_name"), color="#c8ffc8", dynamic=True)
-    mistik = Character('Женщина в сером', color="#c8ffc8")
+    
 
     # phone
     a_nvl = Character("Алина", kind=nvl, image="", callback=Phone_SendSound)

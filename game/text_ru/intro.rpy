@@ -16,20 +16,17 @@ label intro1:
 label intro2:
     # with fade_all
     scene hton_1 with fade_all
-    nar "Девушка бежала под проливным дождем, зная, что не успеет."
+    nar "Она бежит под проливным дождем, в надежде, что успеет."
     # scene hton_1 with fade_all
-    # alina "Нет...нет...нет..! "
+    # alina "Но ей придется "
     # scene hton_1 with fade_all
     # nar "Девушка рычит..."
     # scene hton_1 with fade_all
     # nar "Девушка ползет..."
     # scene hton_1 with fade_all
     # nar "Девушка рычит..."
-    jump morning1
+    jump morning1_1
 
 
     # Вечеринка у общих приятелей. Катя едет ночевать к Артему.
     # Алина жила недалеко, за мостами. Но мосты развели.
-
-    # Но опасайся видений и голосов в голове.
-

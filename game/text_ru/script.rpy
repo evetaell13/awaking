@@ -7,9 +7,9 @@
 
 # Игра начинается здесь:
 label start:
-
+    show screen debug()
     call params
-    jump morning1
+    jump morning1_1
 
     return
 
@@ -19,9 +19,6 @@ label params:
     $od = 50
     $zn = 0
     # Определение персонажей игры.
-    $barmen = _("Бармен")
-    $boy = _("Парень")
-    $psyh_name = _("Психотерапевт")
-    $babka = _("Женский голос")
     $time_of_day = "day"
+    $nvl_mode = "phone"
     return

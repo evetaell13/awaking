@@ -14,5 +14,6 @@ init:
     # Анимация вспышки
     define fade_all = Fade(0.2, 0.0, 0.8, color="#FFFFFF")
 
-    define memory_1 = ImageDissolve("images/atl/diagonal1.jpg", 2.0, 50, reverse=False)
-    define memory_2 = ImageDissolve("images/atl/diagonal1.jpg", 2.0, 50, reverse=True)
+init python:
+    memory_1 = ImageDissolve("images/atl/diagonal1.jpg", 2.0, 80, reverse=False)
+    memory_2 = ImageDissolve("images/atl/diagonal1.jpg", 2.0, 100, reverse=True)

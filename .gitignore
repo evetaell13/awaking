@@ -1,4 +1,4 @@
-log.txt
-errors.txt
-traceback.txt
+*.txt
 *.rpyc
+game/saves/*
+game/cache/*
