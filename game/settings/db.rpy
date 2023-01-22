@@ -1,22 +1,24 @@
 init:
     image side alina_ava  = Image("images/ava/alina_ava.png")
-    # image side babka  = Image("images/ava/alina_ava.png")
-    # image side alina_ava  = Image("images/ava/alina_ava.png")
-    # image side alina_ava  = Image("images/ava/alina_ava.png")
+    image side babka_ava  = Image("images/ava/babka_ava.png")
+    image side kate_ava  = Image("images/ava/kate_ava.png")
+    image side artem_ava  = Image("images/ava/artem_ava.png")
+    image side dan_ava  = Image("images/ava/dan_ava.png")
+    image side prepod_ava  = Image("images/ava/prepod_ava.png")
 
-    define nar = Character(None, what_xpos = 50, what_line_leading = 12, what_ypos = 100, what_xsize = 1870)
-    # define nar = Character("", what_line_leading = 12, kind=nvl)
-    define alina = Character("", image="alina_ava", what_line_leading = 12, what_ypos = 10, what_xsize = 1370)
-    define kate = Character("", image="alina_ava", kind=alina)
-    define artem = Character("", image="alina_ava", kind=alina)
-    define ag = Character("", image="alina_ava", kind=alina)
-    define dan = Character("", image="alina_ava", kind=alina)
+    define nar = Character(None, window_background=Image("gui/textbox_nar.png", xalign=0.5, yalign=1.0), what_xpos = 180, what_line_leading = 12, what_ypos = 10, what_xsize = 1580)
+    define alina = Character("", image="alina_ava", window_background=Image("gui/textbox.png", xalign=0.5, yalign=1.0), what_line_leading = 12, what_ypos = 10, what_xsize = 1370)
+    define kate = Character("", image="kate_ava", kind=alina)
+    define artem = Character("", image="artem_ava", kind=alina)
+    define ag = Character("", image="babka_ava", kind=alina)
+    define dan = Character("", image="dan_av", kind=alina)
     define psyh = Character("", image="alina_ava", kind=alina)
     define mistik = Character("", image="alina_ava", kind=alina)
+    define bufet_women = Character("", image="alina_ava", kind=alina)
+    define prepod = Character("", image="prepod_ava", kind=alina)
+    define alina_m = Character("", image="alina_ava", kind=alina, what_prefix="\"", what_suffix="\"")
 
 init python:
-
-    nar_w = 0
 
     skills_tb = {
 

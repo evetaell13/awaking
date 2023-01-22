@@ -21,4 +21,8 @@ label params:
     # Определение персонажей игры.
     $time_of_day = "day"
     $nvl_mode = "phone"
+    $bufet = 0
+    $metro = 0
+    $no_kate_go = 0
+    $alone = 0
     return
